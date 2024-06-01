@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 1em;
+}
+
+#search-results, #favourite-movies, #movie-details {
+    margin-top: 1em;
+}
+
+.movie-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+    border-bottom: 1px solid #ccc;
+}
+
+.movie-item img {
+    width: 50px;
+    height: 75px;
+    object-fit: cover;
+}
+
+.movie-item button {
+    margin-left: 1em;
+}
